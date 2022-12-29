@@ -1,0 +1,17 @@
+#рандомный код 
+def compute_surface(radius):
+    from math import pi
+    return pi * radius * radius
+
+i = 0
+def increment():
+    global i
+    i += 1
+
+#сам не знаю что это
+def func1(a, b):
+ # f n
+    def inner_func(x):
+        return x*x*x
+
+    return inner_func(a) + inner_func(b)
